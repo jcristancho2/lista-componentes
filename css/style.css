@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #111111, #b3afa4);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(../images/image.png);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #333;
+    border-radius: 0 0 25px 0;
+    height: 40vh;
+}
+
+nav{
+    position: absolute;
+    right: 5vh;
+    top: 20vh;
+    .titulo {
+        margin: 0;
+        font-size: 3rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        color: snow;
+    }
+}
+main {
+    width: 90%;
+    margin: 15px auto;
+    background: transparent;
+    padding: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+    border-radius: 15px;
+
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.listado{
+    list-style: none;
+    margin: 10px;
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse;
+    border: 2px solid #333;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: rgb(235, 211, 176);
+
+}
+
+thead{
+    padding: 10px;
+    background-color: cornflowerblue;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 2px solid #333;
+    border-radius: 15px;
+}
+
+th {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #d3d3d3;
+
+}
+
+tbody tr:nth-child(even) {
+    background-color: #a9a9a9;
+
+}
+
+tbody tr:hover {
+    background-color: black;
+    color: white;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px;
+    background: #460101;
+    color: white;
+    margin-top: 20px;
+}
